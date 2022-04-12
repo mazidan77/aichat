@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+.bot-app .content .bot-info{
+    background-color: #0984e3;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.bot-app .content .bot-info .bot-img{
+   width: 15%;
+   text-align: center;
+   float: left;
+}
+.bot-app .content .bot-info .bot-img img{
+   width: 50px;
+   border-radius: 50%;
+   margin: 4px;
+ }
+ .bot-app .content .bot-info .bot-name{
+   font-size: 2rem;
+   width: 85%;
+    float: left;
+    padding-top: 14px;
+    color: white;
+ }
+ .bot-app #chat-area{
+     margin-top: 73px;
+ }
+ .bot-app #chat-area .msg{
+   background-color: #dfe6e9;
+   padding: 10px;
+   font-size: 2rem;
+   
+   margin-bottom: 2px;
+   margin-top: 2px;
+   width: auto;
+ 
+   text-align: right;
+   
+  border-radius:16px 16px 0 16px;
+}
+.bot-app #chat-area .answer{
+    background-color: #74b9ff;
+    color: rgb(255, 247, 247);
+    padding: 10px;
+   font-size: 2rem;
+ 
+  border-radius:0 16px 16px 16px;
+  margin-left: 10px;
+  
+ }
+ form{
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+ }
+ form input{
+     border: none;
+     outline: none;
+     background: none;
+ }
+ form #message ::placeholder{
+     color: white;
+ }
+ form #message{
+     width: 80%;
+     background-color: #2d3436;
+     color: white;
+     float: left;
+     font-size: 2rem;
+     padding: 10px;
+ }
+ form #send{
+    width: 20%;
+    background-color: #0984e3;
+    color: white;
+    float: left;
+    font-size: 2rem;
+    padding: 10px;
+}

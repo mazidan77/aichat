@@ -1,0 +1,15 @@
+[
+    {
+        "my_msg":"hello",
+        "bot_answer":"Good morrning my friend"
+    },
+    {
+        "my_msg":"you love me",
+        "bot_answer":"Yes i love you"
+    },
+    {
+        "my_msg":"how old are you",
+        "bot_answer":"just one day"
+    }
+
+]
